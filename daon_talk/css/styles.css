@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+
+
+
+@import "reset.css";
+@import "main.css";
+@import "login.css";
+@import "value.css";
+@import "chats.css";
+@import "view.css";
+@import "redcircle.css";
+
+@import "screen.css";
+
+@import "shoping.css";
+@import "more.css";
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    height: 100vh;
+}

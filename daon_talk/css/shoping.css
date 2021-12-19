@@ -1,0 +1,52 @@
+.shop .my-view {
+    opacity: 1.0;
+}
+
+.shop-title-box{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 10px 20px 10px;
+}
+.shop-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    opacity: 0.9;
+}
+
+.shop-title-text{
+    display: block;
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.search-bar {
+    background-color: #eee;
+   padding: 10px 20px 10px 20px;
+   border-radius: 20px;
+   margin:0px 20px;
+}
+
+.search-bar span{
+    opacity: 0.6;
+
+}
+.shop-image{
+    margin: 20px 15px 20px 15px;
+    width: 280px;
+    height: 200px;
+}
+.shop-live-box{
+    display: flex;
+    justify-content: space-between;
+}
+.shop-live span{
+    font-weight: 600;
+    font-size: 18px;
+}
+.shop-live{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

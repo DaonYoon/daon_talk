@@ -1,0 +1,92 @@
+.more .status-bar{
+    margin-bottom: 25px;
+}
+
+
+.more .my-view{
+    opacity: 1.0;
+}
+
+.wallet-box{
+    background-color: #fae100;
+    padding:20px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+
+}
+.wallet-title{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.wallet-title-name{
+    margin-left: 20px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.wallet-title-name2{
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.in {
+    margin: 0px 10px 0px 5px
+}
+
+.wallet-vacine-box {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 25px 20px 25px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px 15px;
+    
+}
+
+.vacine-title{
+    font-size: 24px;
+}
+
+.pay-box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.pay-box-text{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.pay-box-text-list {
+    padding: 10px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.pay-box-buy{
+    margin-right: 30px;
+}
+.pay-box-buy span{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.more-box {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    
+}
+.more-box i{
+    margin-bottom: 10px;
+}
+
+.more-box-list{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 24px;
+}

@@ -1,0 +1,51 @@
+.noti{
+    position: absolute;
+    display: block;
+    background-color: red;
+    color: white;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+
+    right: -5px;
+    bottom: 30px;
+    animation:  notifi 2s ease-in-out infinite;
+}
+
+.chats .redcircle{
+    position:absolute;
+    display: block;
+    background-color: red;
+    color: white;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    right: 10px;
+    top: 30px;
+}
+
+.noti-father{
+    position: relative;
+}
+
+@keyframes notifi {
+    0% {
+        transform: none;
+    }
+    50% {
+        transform: translateY(-6px) rotateY(360deg);
+    }
+    100%{
+        transform: none;
+    }
+}
+
+.main .nav-box-list:nth-child(2) {
+    position: relative;
+}
